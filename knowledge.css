@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 900px;
+    height: 500px;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+.return {
+    max-width: 10em;
+    text-align: center;
+    font-weight: 900;
+    background-color: darkgoldenrod;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+.container img {
+    max-width: 25em;
+    vertical-align: top;
+    border-color: aqua;
+    border-style: dotted;
+}
+.return a {
+    text-decoration: none;
+    color: brown;
+}
+
+.container .content{
+    display: inline-block;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+}
+li {
+    padding: 20px;
+}

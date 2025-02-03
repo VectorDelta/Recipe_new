@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+.menu-container {
+    display: flex;
+    height: 150px;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 0.5rem;
+}
+
+.menu-container div {
+    border: 1px solid black;
+    flex: 1;
+}
